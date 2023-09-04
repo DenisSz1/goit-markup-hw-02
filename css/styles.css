@@ -140,3 +140,43 @@ body {
 }
 
 /*page studio end*/
+
+/*page portfolio start*/
+/*button filter*/
+
+.btn {
+    color: var(--primary-title-color);
+    background: var(--filter-btn-color);
+
+    font-size: 16px;
+    line-height: 1.63;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn:focus,
+.btn:hover {
+    color: var(--primary-white-color);
+    background: var(--accenr-color);
+}
+
+/*portfolio*/
+
+.portfolio-list {
+    list-style: none;
+}
+
+.portfolio-list .title {
+    color: var(--primary-title-color);
+
+    font-size: 18px;
+    line-height: 2;
+}
+
+.portfolio-list .description {
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+/*page portfolio end*/
+
