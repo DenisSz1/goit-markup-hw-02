@@ -180,3 +180,18 @@ body {
 
 /*page portfolio end*/
 
+/*footer*/
+
+footer .logo {
+    color: var(--primary-white-color);
+}
+
+.footer-address {
+    color: var(--primary-white-color);
+    font-style: normal;
+}
+
+.footer-address .link,
+.footer-address .tel {
+    color: var(--footer-white-color);
+}
