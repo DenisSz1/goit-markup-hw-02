@@ -11,6 +11,8 @@
     --primary-text-color: rgba(117, 117, 117, 1);
     --primary-title-color: rgba(33, 33, 33, 1);
     --primary-white-color: rgba(255, 255, 255, 1);
+    --bcg-gray-color: rgba(47, 48, 58, 1);
+    --bcg-secondary-gray-color: rgba(245, 244, 250, 1);
     --logo-color: rgba(0, 0, 0, 1);
     --accenr-color: rgba(33, 150, 243, 1);
     --filter-btn-color: rgba(245, 244, 250, 1);
@@ -28,6 +30,7 @@ body {
 .logo {
     color: var(--logo-color);
  
+    font-family: 'Raleway', sans-serif;;
     font-size: 26px;
     line-height: 1.17;
     font-weight: 700;
@@ -36,11 +39,6 @@ body {
 
 .logo-web  {
     color: var(--accenr-color);
-    
-    font-family: 'Oleo Script', sans-serif;
-    font-size: 26px;
-    line-height: 1.38;
-    font-weight: 400;
 }
 
 /*navigation*/
@@ -80,8 +78,16 @@ body {
     color: var(--accenr-color);
 }
 
+.nav-list .link.current {
+    color: var(--accenr-color);
+}
+
 /*page studio start*/
 /*banner*/
+
+.main {
+    background-color: var(--bcg-gray-color);
+}
 
 .main-banner {
     color: var(--primary-white-color);
@@ -131,6 +137,11 @@ body {
 }
 
 /*team*/
+
+.team {
+    background-color: var(--bcg-secondary-gray-color);
+}
+
 .team .subtitle {
     color: var(--primary-title-color);
 
@@ -144,6 +155,9 @@ body {
 /*page portfolio start*/
 /*button filter*/
 
+.btn-list {
+    list-style: none;
+}
 .btn {
     color: var(--primary-title-color);
     background: var(--filter-btn-color);
@@ -163,7 +177,11 @@ body {
 /*portfolio*/
 
 .portfolio-list {
-    list-style: none;
+    list-style: none;  
+}
+
+.portfolio-list a {
+    text-decoration: none;
 }
 
 .portfolio-list .title {
@@ -174,6 +192,7 @@ body {
 }
 
 .portfolio-list .description {
+    color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.88;
 }
@@ -181,6 +200,10 @@ body {
 /*page portfolio end*/
 
 /*footer*/
+
+footer {
+    background-color: var(--bcg-gray-color); 
+}
 
 footer .logo {
     color: var(--primary-white-color);
