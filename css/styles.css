@@ -217,4 +217,5 @@ footer .logo {
 .footer-address .link,
 .footer-address .tel {
     color: var(--footer-white-color);
+    font-weight: 400;
 }
