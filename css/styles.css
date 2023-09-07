@@ -211,6 +211,7 @@ footer .logo {
 
 .footer-address {
     color: var(--primary-white-color);
+    font-size: 14px;
     font-style: normal;
 }
 
